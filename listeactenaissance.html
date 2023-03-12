@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+	<ui:composition template="">
+	</ui:composition>
+  <head>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+    <title>Liste des actes de naissances</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"></link>
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="Accueil.html">ACCUEIL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          
+ 
+           <li class="nav-item">
+            <a class="nav-link" href="listeactenaissance.html">NAISSANCES</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="listemariage.html">MARIAGES</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">DECES</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">IMPRESSIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Administrateur.html">ADMINISTRATEUR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OFFICIER</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="authentification.html">Déconnexion</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	 <div class="container mt-4">
+	    <h2>LISTES DES PERSONNES DECLARRES A L'ETAT CIVIL</h2>
+	    <table class="table table-striped">
+	        <thead>
+	            <tr>
+	                <th>Numéro</th>
+	                <th>Nom</th>
+	                <th>Prénom</th>
+	                <th>Date Naissance</th>
+	                <th>Lieu de Naissance</th>
+	                <th>Impression</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+	            <tr>
+	                <td>001</td>
+	                <td>Papa</td>
+	                <td>Boye</td>
+	                <td>25/02/1998</td>
+	                <td>Diamnaidio</td>
+	                <td><button type="submit" class="btn btn-primary btn-block" ><a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer</a></button></td>
+	            </tr>
+	            <tr>
+	                <td>002</td>
+	                <td>Dave</td>
+	                <td>Ndour</td>
+	                <td>30/01/2001</td>
+	                <td>Ponty</td>
+	                <td><button type="submit" class="btn btn-primary btn-block" ><a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer</a></button></td>
+	            </tr>
+	            <tr>
+	                <td>003</td>
+	                <td>Momo</td>
+	                <td>Ndoye</td>
+	                <td>25/06/2002</td>
+	                <td>Dougar</td>
+	                <td><button type="submit" class="btn btn-primary btn-block" ><a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer</a></button></td>
+	            </tr>
+	            <tr>
+	                <td>004</td>
+	                <td>Ely</td>
+	                <td>Diouf</td>
+	                <td>10/11/2000</td>
+	                <td>Déne</td>
+	                <td><button type="submit" class="btn btn-primary btn-block" ><a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer</a></button></td>
+	            </tr>
+	            <tr>
+	                <td>005</td>
+	                <td>Mina</td>
+	                <td>Ndoye</td>
+	                <td>23/09/1999</td>
+	                <td>Séby</td>
+	                <td><button type="submit" class="btn btn-primary btn-block" ><a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer</a></button></td>
+	            </tr>
+	            <tr>
+	                <td>006</td>
+	                <td>Jules</td>
+	                <td>Diop</td>
+	                <td>05/05/2002</td>
+	                <td>Diamniadio</td>
+	                <td><button type="submit" class="btn btn-primary btn-block" ><a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer</a></button></td>
+	            </tr>
+	            <tr>
+	                <td>007</td>
+	                <td>Madia</td>
+	                <td>Coly</td>
+	                <td>27/09/2003</td>
+	                <td>Pout</td>
+	                <td><button type="submit" class="btn btn-primary btn-block" ><a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer</a></button></td>
+	            </tr>
+	            <tr>
+	                <td>008</td>
+	                <td>Babs</td>
+	                <td>Diop</td>
+	                <td>29/08/2007</td>
+	                <td>Déne</td>
+	                <td>
+		                <button type="submit" class="btn btn-primary btn-block" >
+		                	<a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer
+		                	</a>
+		                </button>
+	                </td>
+	            </tr>
+	            <tr>
+	                <td>009</td>
+	                <td>Gana</td>
+	                <td>Ndour</td>
+	                <td>26/11/2005</td>
+	                <td>Ponty</td>
+	                <td><button type="submit" class="btn btn-primary btn-block" ><a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer</a></button></td>
+	            </tr>
+	            <tr>
+	                <td>010</td>
+	                <td>Bathie</td>
+	                <td>Gning</td>
+	                <td>19/03/1999</td>
+	                <td>Déne</td>
+	                <td><button type="submit" class="btn btn-primary btn-block" ><a href="vers/fichier.pdf" class="btn btn-primary" target="_blank">Imprimer</a></button></td>
+	            </tr>
+	            </tbody>
+	            </table>
+	            </div>
+	            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

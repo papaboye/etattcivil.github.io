@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+	<ui:composition template="">
+	</ui:composition>
+  <head>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+    <title>Authentification</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"></link>
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="Accueil.html">ACCUEIL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          
+ 
+           <li class="nav-item">
+            <a class="nav-link" href="listeactenaissance.html">NAISSANCES</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="listemariage.html">MARIAGES</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">DECES</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">IMPRESSIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Administrateur.html">ADMISNISTRATEUR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OFFICIERS</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Déconnexion</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="text-center">Connexion</h4>
+            </div>
+            <div class="card-body">
+              <form method="get" action="Accueil.html">
+                <div class="form-group">
+                  <label for="text">Login</label>
+                  <input type="text" class="form-control" id="login" placeholder="Entrez votre login"></input>
+                </div>
+                
+                <div class="form-group">
+                  <label for="password">Mot de passe</label>
+                  <input type="password" class="form-control" id="password" placeholder="Entrez votre mot de passe"></input>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" >Se connecter</button>
+                
+               </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
